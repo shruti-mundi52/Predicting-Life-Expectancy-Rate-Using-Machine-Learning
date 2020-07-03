@@ -1,0 +1,1 @@
+[{"id":"57569a2f.8c0604","type":"function","z":"c030d002.cc0b","name":"getFrom Endpoint","func":"msg.payload=msg.payload.predictions[0].values[0][0];\nreturn msg;","outputs":1,"noerr":0,"x":650,"y":420,"wires":[["a82de3a9.0a5c3","75eca20b.4da01c"]]}]
